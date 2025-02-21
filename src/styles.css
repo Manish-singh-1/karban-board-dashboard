@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.app.dark {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.board {
+  display: flex;
+  gap: 20px;
+}
+
+.column {
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.app.dark .column {
+  background: #333;
+  color: #fff;
+}
+
+.task {
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.app.dark .task {
+  background: #444;
+  color: #fff;
+}
+
+.togglebtn {
+    float: inline-end;
+}
